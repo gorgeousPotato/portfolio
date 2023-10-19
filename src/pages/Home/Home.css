@@ -1,0 +1,38 @@
+.Home {
+  margin-top: 8rem;
+}
+
+
+.home-links {
+  display: flex;
+}
+
+.home-links a {
+  margin-top: 2rem;
+  margin-right: 2rem;
+  padding: .5rem 2rem;
+  border: 2px solid white; 
+  text-decoration: none;
+  color: #31312d;
+  border-radius: 100px;
+}
+
+.home-links a:hover {
+  border: 2px solid white; 
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.title .logo-img {
+  background-image: url('../../../public/Rectangle\ 4.png');
+  background-size: cover;
+  background-position: center center;
+  height: 3rem;
+  width: 3rem;
+  margin-left: 1rem;
+}

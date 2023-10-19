@@ -1,0 +1,18 @@
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.contact a{
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #8D8DAA;
+}
+
+.contact a:hover{
+  text-decoration: underline;
+  color: #F56D91;
+}
+

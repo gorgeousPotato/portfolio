@@ -1,0 +1,91 @@
+.project-img {
+  width: 50vw;
+  border-radius: 2rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.ProjectCard {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid lavender; */
+  background-color: #F7F5F2;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  padding: .5rem 2rem;
+  border-radius: 4rem;
+  margin-top: 2rem;
+}
+
+.ProjectCard p {
+  margin-right: 1rem;
+}
+
+.ProjectCard .flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.ProjectCard h2 {
+  font-size: 3rem;
+  letter-spacing: 2px ;
+}
+
+.descr {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: larger;
+}
+
+.ProjectCard .descr a{
+  text-decoration: none;
+  margin-right: 4rem;
+  padding: .5rem 2rem;
+  border-radius: 100px;
+  border: 2px solid #F7F5F2;
+  color: #8D8DAA;
+}
+
+.ProjectCard .descr a:hover{
+  border: 2px solid lightgray;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.tech {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+}
+
+.tech p {
+  padding: .5rem 1rem;
+  background-color: #DFDFDE;
+  border-radius: 100px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.links {
+  margin-top: 2rem;
+}
+
+.title-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.ProjectCard .logo-img {
+  background-image: url('../../../public/Rectangle\ 4.png');
+  background-size: cover;
+  background-position: center center;
+  height: 2rem;
+  width: 2rem;
+  margin-right: 1rem;
+}
+
+
+

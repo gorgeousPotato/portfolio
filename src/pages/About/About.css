@@ -1,0 +1,45 @@
+.photo {
+  background-image: url('../../../public/Rectangle\ 3.png');
+  background-size: 8rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.About {
+  width: 60%;
+  align-items: end;
+  gap: 2rem;
+}
+
+.description {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 1rem;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.skill {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: .5rem 1rem;
+  margin: .5rem 1rem;
+  background-color: #DFDFDE;
+  border-radius: 100px;
+}
+
+.skill h5 {
+  margin: 0;
+}
+
+.skill i{
+  margin-left: .5rem;
+}
+
