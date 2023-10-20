@@ -4,7 +4,7 @@
   justify-content: flex-end;
   align-items: center;
   font-family: Poppins;
-  position: fixed;
+  position: sticky;
   top: 0;
   background-color: white;
   width: 100%;

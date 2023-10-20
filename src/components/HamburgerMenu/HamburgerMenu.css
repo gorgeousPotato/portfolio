@@ -7,7 +7,7 @@
   /* visibility: hidden; */
   flex-direction: column;
   cursor: pointer;
-  position: fixed;
+  position: sticky;
   top: 4rem;
   right: 3rem;
 }
