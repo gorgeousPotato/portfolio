@@ -87,5 +87,27 @@
   margin-right: 1rem;
 }
 
+@media (max-width: 768px) {
+  .ProjectCard .flex-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .links {
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+  }
+
+  .project-img {
+    width: 70vw;
+  
+  }
+
+  .tech {
+    flex-wrap: wrap;
+  }
+
+}
+
 
 

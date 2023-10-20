@@ -43,3 +43,21 @@
   margin-left: .5rem;
 }
 
+@media (max-width: 768px) {
+  .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .description .photo {
+    display:none;
+  }
+
+  .About {
+    width:80vw;
+  }
+
+}
+

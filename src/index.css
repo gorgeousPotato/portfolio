@@ -9,3 +9,10 @@ h1 {
   font-size: 3.2rem;
 }
 
+@media (max-width: 768px) {
+  body {
+    margin: 1rem 3rem;
+    
+  }
+}
+
