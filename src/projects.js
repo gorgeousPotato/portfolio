@@ -1,5 +1,14 @@
 export const projects = [
   {
+    title: "AstroJet",
+    date: "October 2023",
+    description: "MERN-stack application for booking flights to other planets!",
+    tech: ["React", "Node.js", "Express.js", "MongoDB", "Heroku"],
+    img: "https://raw.githubusercontent.com/gorgeousPotato/screenshots_spendwise/main/Screenshot%202024-01-10%20at%2010.11.23%20PM.png",
+    github: "https://github.com/gorgeousPotato/astrojetairways",
+    deployed: "https://astrojet-b7b83b6f90f3.herokuapp.com/",
+  },
+  {
     title: "Allergy Alchemy",
     date: "October 2023",
     description: "MERN-stack application for people with food allergies – to keep track of their allergens, search for recipes that don’t contain allergens, create new recipes to share with the world, keep track of daily nutrition (via Edamam Nutrition API), create shopping lists.",
